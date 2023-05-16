@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Sound</title>
+    </head>
+
+    <body>
+        <h1>soundZEUS</h1>
+
+        
+
+        <button onclick="jouer()">jouer</button>
+
+        <button onclick="pause()">pause</button>
+        
+        <script>
+            var snd = new Audio("notification.mp3"); 
+
+            function jouer(){
+                snd.play();
+            }
+            function pause(){
+                snd.pause();
+            }
+        </script>
+    </body>
+</html>
